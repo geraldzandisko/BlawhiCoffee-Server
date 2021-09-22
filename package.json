@@ -1,0 +1,19 @@
+{
+  "name": "blawhi-server",
+  "version": "1.0.0",
+  "description": "Sistem Informasi Pengelolaan Warung Kopi Server",
+  "main": "index.js",
+  "author": "Gerald Zandisko, Ria Agustin",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nocache": "^3.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
